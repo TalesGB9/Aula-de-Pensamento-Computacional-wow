@@ -1,5 +1,18 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header{
-    background-color: antiquewhite;
+    background-color: lightslategray;
+}
+
+footer{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
@@ -8,5 +21,54 @@ nav{
     justify-content: space-around;
 }
 
+img{
+    max-height: 200px;
+}
+
+.Games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Jogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Músicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.Bandas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Descrição{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 
 
