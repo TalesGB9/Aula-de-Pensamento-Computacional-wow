@@ -1,0 +1,35 @@
+header{
+    background-color: white;
+}
+
+
+
+.nome2{
+    color: white;
+}
+
+.Cabeçalho{
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+img{
+    max-height: 100px;
+    display: flex;
+    align-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+}
+
